@@ -12,6 +12,7 @@ struct DiceAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(numberStorage())
         }
     }
 }

@@ -11,6 +11,9 @@
 		BC2DA6492932ED450061F7E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6482932ED450061F7E0 /* ContentView.swift */; };
 		BC2DA64B2932ED470061F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2DA64A2932ED470061F7E0 /* Assets.xcassets */; };
 		BC2DA64F2932ED470061F7E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2DA64E2932ED470061F7E0 /* Preview Assets.xcassets */; };
+		BC2DA6562932F0F50061F7E0 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6552932F0F50061F7E0 /* Dice.swift */; };
+		BC2DA6582932FF9C0061F7E0 /* title.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6572932FF9C0061F7E0 /* title.swift */; };
+		BC2DA65A293301F40061F7E0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA659293301F40061F7E0 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		BC2DA64A2932ED470061F7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2DA64C2932ED470061F7E0 /* DiceApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiceApp.entitlements; sourceTree = "<group>"; };
 		BC2DA64E2932ED470061F7E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC2DA6552932F0F50061F7E0 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		BC2DA6572932FF9C0061F7E0 /* title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = title.swift; sourceTree = "<group>"; };
+		BC2DA659293301F40061F7E0 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				BC2DA6462932ED450061F7E0 /* DiceAppApp.swift */,
 				BC2DA6482932ED450061F7E0 /* ContentView.swift */,
+				BC2DA659293301F40061F7E0 /* Storage.swift */,
+				BC2DA6572932FF9C0061F7E0 /* title.swift */,
+				BC2DA6552932F0F50061F7E0 /* Dice.swift */,
 				BC2DA64A2932ED470061F7E0 /* Assets.xcassets */,
 				BC2DA64C2932ED470061F7E0 /* DiceApp.entitlements */,
 				BC2DA64D2932ED470061F7E0 /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2DA6582932FF9C0061F7E0 /* title.swift in Sources */,
 				BC2DA6492932ED450061F7E0 /* ContentView.swift in Sources */,
+				BC2DA6562932F0F50061F7E0 /* Dice.swift in Sources */,
 				BC2DA6472932ED450061F7E0 /* DiceAppApp.swift in Sources */,
+				BC2DA65A293301F40061F7E0 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
